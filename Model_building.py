@@ -70,9 +70,16 @@ df_err[df_err.error == max(df_err.error)]
 
 #random forest
 from sklearn.ensemble import RandomForestRegressor
+
+feature_names = x_train.columns.tolist()
+
 rf = RandomForestRegressor()
 rf.fit(x_train, y_train)
 
+model.feature_names = feature_names
+
+feature_names
+ 
 np.mean(cross_val_score(rf, x_train, y_train, scoring = 'neg_mean_absolute_error', cv = 3))
 
 from sklearn.model_selection import GridSearchCV
@@ -100,3 +107,18 @@ mean_absolute_error(y_test, tpred_lml)
 mean_absolute_error(y_test, tpred_rf)
 
 mean_absolute_error(y_test,(tpred_lml+tpred_rf/2))
+
+#pickling the model means we make the model usable by other programs without having to retrain the model. 
+
+import pickle
+pickl = {'model': gs.best_estimator_}
+pickle.dump( pickl, open('model_file'+ ".p", "wb"))
+
+file_name = "model_file.p"
+with open(file_name, 'rb') as pickled:
+    data = pickle.load(pickled)
+    model = data['model']
+    
+model.predict(x_test.iloc[2,:].values.reshape(1,-1)) 
+
+list(x_test.iloc[2,:])

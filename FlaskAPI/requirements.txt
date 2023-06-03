@@ -1,0 +1,14 @@
+click==7.1.2
+Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1638480437950/work
+itsdangerous==1.1.0
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1655912915439/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1663332044897/work
+MarkupSafe==1.1.1
+numpy @ file:///D:/bld/numpy_1649806536290/work
+pandas @ file:///D:/bld/pandas_1614698123791/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1680088766131/work
+scikit-learn==0.22.1
+scipy @ file:///C:/bld/scipy_1637806996411/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+Werkzeug==1.0.1
