@@ -64,9 +64,9 @@ Different model:
 
 # Model Perfomance:  
   The Lasso regression outperforms the other approaches when measuring with MAE
-     * Lasso Regression: MAE = 26.594997703695352
-     * Random Forest Regression: MAE = 27.486068958219423
-     * Multiple Linear Regression: MAE = 78930099.30502017    
+   * Lasso Regression: MAE = 26.594997703695352
+   * Random Forest Regression: MAE = 27.486068958219423
+   * Multiple Linear Regression: MAE = 78930099.30502017    
 
 # Productionization 
   In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorail in youtube reference above.
