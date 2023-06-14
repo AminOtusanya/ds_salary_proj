@@ -6,10 +6,10 @@
 * Built a client facing API using flask 
 
 # Code and Resources Used
-**Python Version:** 3.10.9
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
-**For Web Framework Requiremnts:** '''pip install -r requiremnts.txt'''
-**YouTube Tutorial:** https://www.youtube.com/watch?v=agHKuUoMwvY&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=7
+* Python Version:** 3.10.9
+* Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
+* For Web Framework Requiremnts:** '''pip install -r requiremnts.txt'''
+* YouTube Tutorial:** https://www.youtube.com/watch?v=agHKuUoMwvY&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=7
 
 # Data Collected
 For each job scrapper we got this from the entire dataset:
